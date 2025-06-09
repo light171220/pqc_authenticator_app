@@ -1,0 +1,27 @@
+name: pqc_authenticator_app
+description: A quantum-safe authenticator Flutter application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  sqflite: ^2.3.0
+  qr_code_scanner: ^1.0.1
+  shared_preferences: ^2.2.2
+  crypto: ^3.0.3
+  provider: ^6.1.1
+  flutter_secure_storage: ^9.0.0
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
